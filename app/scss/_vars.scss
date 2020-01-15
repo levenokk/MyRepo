@@ -1,0 +1,19 @@
+$darkGray: #262626;
+$gray: #a4a4a4;
+$red: #ff0036;
+$black: #131313;
+$lightGray: #505050;
+$lightDark: #393939;
+$grey: #343434;
+$cherry: #3d2329;
+$lightGrey: #a2a2a2;
+
+@mixin releway($fw: 400) {
+  font-family: "Raleway", sans-serif;
+  font-weight: $fw;
+}
+
+@mixin lato($fw: 400) {
+  font-family: "Lato", sans-serif;
+  font-weight: $fw;
+}

@@ -1,0 +1,24 @@
+.title {
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 45px;
+  span {
+    color: $red;
+  }
+  &__white{
+    color:#fff;
+  }
+}
+.title__text {
+  font-size: 14px;
+  line-height: 22px;
+  color: $lightGray;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 80px;
+  span {
+    color: $red;
+  }
+}
