@@ -44,4 +44,8 @@ $(function () {
             $('.up-arrow').removeClass('active');
         }
     })
+
+    $('.nav__btn').on('click', function() {
+        $('.header__nav').slideToggle();
+    })
 });
