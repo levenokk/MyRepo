@@ -115,6 +115,23 @@
       width: 100%;
     }
   }
+  .follow__items {
+  }
+}
+
+@media (max-width: 529px) {
+  .follow {
+    background-position-x: -765px;
+  }
+  .footer {
+    padding: 36px 0px 30px;
+  }
+  .footer::after {
+    bottom: 0;
+    top: auto;
+    font-size: 14px;
+    transform: translateY(0);
+  }
 }
 
 @media (max-width: 480px) {

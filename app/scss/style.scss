@@ -175,7 +175,7 @@ ol {
     width: 178px;
     height: 55px;
     text-align: center;
-    line-height:55px;
+    line-height: 55px;
     transition: all 0.2s linear;
     margin-bottom: 10px;
   }
@@ -747,7 +747,7 @@ ol {
   justify-content: center;
   align-items: center;
   margin-bottom: 40px;
-  img{
+  img {
     max-width: 100%;
     height: auto;
   }
@@ -1241,8 +1241,8 @@ ol {
 }
 
 .follow {
-  background-image: url("../img/bgFollow\ .png");
-  background-position: top;
+  background: url("../img/bgFollow\ .png");
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   padding: 90px 0px 70px;
@@ -1319,6 +1319,7 @@ ol {
 .send-message__block {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   align-items: center;
 }
 
@@ -1327,6 +1328,7 @@ ol {
   background-repeat: no-repeat;
   width: 300px;
   height: 226px;
+  margin-bottom: 20px;
   background-position: center;
 }
 
