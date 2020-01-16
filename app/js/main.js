@@ -39,6 +39,8 @@ $(function () {
     $(window).on('scroll', function () {
         if ($(this).scrollTop() > $(this).height()) {
             $('.up-arrow').addClass('active');
+        } else {
+            $('.up-arrow').removeClass('active');
         }
 
     })

@@ -747,6 +747,10 @@ ol {
   justify-content: center;
   align-items: center;
   margin-bottom: 40px;
+  img{
+    max-width: 100%;
+    height: auto;
+  }
 }
 
 .teamwork {
