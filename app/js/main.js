@@ -39,13 +39,11 @@ $(function () {
     $(window).on('scroll', function () {
         if ($(this).scrollTop() > $(this).height()) {
             $('.up-arrow').addClass('active');
-            setTimeout(() => animateArrowUp(), 4000);
-        } else {
-            $('.up-arrow').removeClass('active');
         }
+
     })
 
-    $('.nav__btn').on('click', function() {
+    $('.nav__btn').on('click', function () {
         $('.header__nav').slideToggle();
     })
 });

@@ -48,6 +48,9 @@
   .slider__text {
     max-width: 500px;
   }
+  .slider__wrapper-inner{
+    position: relative;
+  }
 }
 
 @media (max-width: 612px) {
@@ -72,6 +75,30 @@
   .slider__text {
     font-size: 14px;
     max-width: 400px;
+  }
+  .images{
+    img{
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  .slide {
+    input[type="range"] {
+      -webkit-appearance: none;
+      width: 100%;
+    }
+  }
+  .backLeft{
+    display: none;
+  }
+  .backRight{
+    display: none;
+  }
+  .scroll-bar{
+    width: 90%;
+    input[type="range"]{
+      width: 100%;
+    }
   }
 }
 
