@@ -172,8 +172,12 @@ ol {
     color: #fff;
     font-weight: 500;
     font-size: 20px;
-    padding: 12px 38px 13px 40px;
+    width: 178px;
+    height: 55px;
+    text-align: center;
+    line-height:55px;
     transition: all 0.2s linear;
+    margin-bottom: 10px;
   }
   a:nth-child(1) {
     background-color: $red;
