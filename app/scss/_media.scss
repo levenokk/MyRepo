@@ -44,11 +44,11 @@
   .header__list {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
   .list-item {
     margin-left: 0;
@@ -56,13 +56,13 @@
   .nav__btn {
     display: inline-block;
   }
-  .about{
+  .about {
     padding-top: 20px;
   }
-  .teamwork{
+  .teamwork {
     padding-bottom: 50px;
   }
-  .title__text{
+  .title__text {
     margin-bottom: 50px;
   }
 }
@@ -95,11 +95,11 @@
   .clients__brands {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 }
 
@@ -150,9 +150,9 @@
     top: auto;
     font-size: 14px;
     -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
   }
-  .skills{
+  .skills {
     padding-bottom: 30px;
   }
 }
@@ -164,8 +164,8 @@
   .slider__btns {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     a:nth-child(2) {
       margin-left: 0;
     }

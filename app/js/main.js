@@ -54,4 +54,11 @@ $(function () {
     $('.nav__btn').on('click', function () {
         $('.header__nav').slideToggle();
     })
+
+    $(window).on('load', function () {
+        setTimeout(() => {
+           $('.preloader').addClass('done') 
+        }, 1000);
+    }
+    )
 });
