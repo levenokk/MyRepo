@@ -45,6 +45,12 @@ $(function () {
 
     })
 
+    $('.up-arrow').on('click', function () {
+        $('html, body').animate({
+            scrollTop: 0
+        }, 500);
+    })
+
     $('.nav__btn').on('click', function () {
         $('.header__nav').slideToggle();
     })
